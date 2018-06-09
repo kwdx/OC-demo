@@ -104,9 +104,24 @@ typedef void(^RunloopBlock)(void);
         case 0:
         {
             // 普通加载
-            cell.imageView1.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@(row%3).stringValue ofType:@"jpg"]];
-            cell.imageView2.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@((row+1)%3).stringValue ofType:@"jpg"]];
-            cell.imageView3.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@((row+2)%3).stringValue ofType:@"jpg"]];
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                UIImage *image1 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@((row+1)%3).stringValue ofType:@"jpg"]];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    cell.imageView1.image = image1;
+                });
+            });
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                UIImage *image2 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@((row+2)%3).stringValue ofType:@"jpg"]];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    cell.imageView2.image = image2;
+                });
+            });
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                UIImage *image3 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@(row%3).stringValue ofType:@"jpg"]];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    cell.imageView3.image = image3;
+                });
+            });
         }
             break;
         case 1:
