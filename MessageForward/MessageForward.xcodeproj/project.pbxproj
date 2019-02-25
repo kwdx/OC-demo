@@ -3,44 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8923A4912052189500E0658A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8923A4902052189500E0658A /* main.m */; };
-		8923A49B2052189E00E0658A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8923A4982052189D00E0658A /* Person.m */; };
-		8923A49C2052189E00E0658A /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8923A49A2052189D00E0658A /* Teacher.m */; };
-		8923A49F20521A3000E0658A /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8923A49E20521A3000E0658A /* Doctor.m */; };
-		8923A4A820522F9A00E0658A /* NSObject+Trash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8923A4A720522F9A00E0658A /* NSObject+Trash.m */; };
+		892E785A2223CBA700481BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E78592223CBA700481BC5 /* main.m */; };
+		892E78622223CBAE00481BC5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E78612223CBAE00481BC5 /* Person.m */; };
+		892E78682223D0D500481BC5 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E78672223D0D500481BC5 /* Dog.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8923A48B2052189400E0658A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8923A48D2052189400E0658A /* MessageForwarding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessageForwarding; sourceTree = BUILT_PRODUCTS_DIR; };
-		8923A4902052189500E0658A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8923A4972052189D00E0658A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		8923A4982052189D00E0658A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		8923A4992052189D00E0658A /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
-		8923A49A2052189D00E0658A /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
-		8923A49D20521A3000E0658A /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
-		8923A49E20521A3000E0658A /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
-		8923A4A620522F9A00E0658A /* NSObject+Trash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Trash.h"; sourceTree = "<group>"; };
-		8923A4A720522F9A00E0658A /* NSObject+Trash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Trash.m"; sourceTree = "<group>"; };
+		892E78472223CBA600481BC5 /* MessageForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		892E78582223CBA700481BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892E78592223CBA700481BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		892E78602223CBAE00481BC5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		892E78612223CBAE00481BC5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		892E78662223D0D500481BC5 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		892E78672223D0D500481BC5 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8923A48A2052189400E0658A /* Frameworks */ = {
+		892E78442223CBA600481BC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,107 +33,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8923A4842052189400E0658A = {
+		892E783E2223CBA600481BC5 = {
 			isa = PBXGroup;
 			children = (
-				8923A48F2052189400E0658A /* MessageForwarding */,
-				8923A48E2052189400E0658A /* Products */,
+				892E78492223CBA600481BC5 /* MessageForward */,
+				892E78482223CBA600481BC5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8923A48E2052189400E0658A /* Products */ = {
+		892E78482223CBA600481BC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8923A48D2052189400E0658A /* MessageForwarding */,
+				892E78472223CBA600481BC5 /* MessageForward.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8923A48F2052189400E0658A /* MessageForwarding */ = {
+		892E78492223CBA600481BC5 /* MessageForward */ = {
 			isa = PBXGroup;
 			children = (
-				8923A4902052189500E0658A /* main.m */,
-				8923A4972052189D00E0658A /* Person.h */,
-				8923A4982052189D00E0658A /* Person.m */,
-				8923A4992052189D00E0658A /* Teacher.h */,
-				8923A49A2052189D00E0658A /* Teacher.m */,
-				8923A49D20521A3000E0658A /* Doctor.h */,
-				8923A49E20521A3000E0658A /* Doctor.m */,
-				8923A4A620522F9A00E0658A /* NSObject+Trash.h */,
-				8923A4A720522F9A00E0658A /* NSObject+Trash.m */,
+				892E78602223CBAE00481BC5 /* Person.h */,
+				892E78612223CBAE00481BC5 /* Person.m */,
+				892E78662223D0D500481BC5 /* Dog.h */,
+				892E78672223D0D500481BC5 /* Dog.m */,
+				892E78582223CBA700481BC5 /* Info.plist */,
+				892E78592223CBA700481BC5 /* main.m */,
 			);
-			path = MessageForwarding;
+			path = MessageForward;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8923A48C2052189400E0658A /* MessageForwarding */ = {
+		892E78462223CBA600481BC5 /* MessageForward */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8923A4942052189500E0658A /* Build configuration list for PBXNativeTarget "MessageForwarding" */;
+			buildConfigurationList = 892E785D2223CBA700481BC5 /* Build configuration list for PBXNativeTarget "MessageForward" */;
 			buildPhases = (
-				8923A4892052189400E0658A /* Sources */,
-				8923A48A2052189400E0658A /* Frameworks */,
-				8923A48B2052189400E0658A /* CopyFiles */,
+				892E78432223CBA600481BC5 /* Sources */,
+				892E78442223CBA600481BC5 /* Frameworks */,
+				892E78452223CBA600481BC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MessageForwarding;
-			productName = MessageForwarding;
-			productReference = 8923A48D2052189400E0658A /* MessageForwarding */;
-			productType = "com.apple.product-type.tool";
+			name = MessageForward;
+			productName = MessageForward;
+			productReference = 892E78472223CBA600481BC5 /* MessageForward.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8923A4852052189400E0658A /* Project object */ = {
+		892E783F2223CBA600481BC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = warden;
 				TargetAttributes = {
-					8923A48C2052189400E0658A = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+					892E78462223CBA600481BC5 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 8923A4882052189400E0658A /* Build configuration list for PBXProject "MessageForwarding" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 892E78422223CBA600481BC5 /* Build configuration list for PBXProject "MessageForward" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 8923A4842052189400E0658A;
-			productRefGroup = 8923A48E2052189400E0658A /* Products */;
+			mainGroup = 892E783E2223CBA600481BC5;
+			productRefGroup = 892E78482223CBA600481BC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8923A48C2052189400E0658A /* MessageForwarding */,
+				892E78462223CBA600481BC5 /* MessageForward */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		892E78452223CBA600481BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		8923A4892052189400E0658A /* Sources */ = {
+		892E78432223CBA600481BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8923A4A820522F9A00E0658A /* NSObject+Trash.m in Sources */,
-				8923A49C2052189E00E0658A /* Teacher.m in Sources */,
-				8923A49B2052189E00E0658A /* Person.m in Sources */,
-				8923A49F20521A3000E0658A /* Doctor.m in Sources */,
-				8923A4912052189500E0658A /* main.m in Sources */,
+				892E78682223D0D500481BC5 /* Dog.m in Sources */,
+				892E785A2223CBA700481BC5 /* main.m in Sources */,
+				892E78622223CBAE00481BC5 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8923A4922052189500E0658A /* Debug */ = {
+		892E785B2223CBA700481BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,10 +148,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -171,6 +161,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -179,7 +170,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -198,14 +189,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		8923A4932052189500E0658A /* Release */ = {
+		892E785C2223CBA700481BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,10 +207,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -226,6 +220,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,7 +229,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -247,50 +242,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8923A4952052189500E0658A /* Debug */ = {
+		892E785E2223CBA700481BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessageForward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.warden.MessageForward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8923A4962052189500E0658A /* Release */ = {
+		892E785F2223CBA700481BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessageForward/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.warden.MessageForward;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8923A4882052189400E0658A /* Build configuration list for PBXProject "MessageForwarding" */ = {
+		892E78422223CBA600481BC5 /* Build configuration list for PBXProject "MessageForward" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8923A4922052189500E0658A /* Debug */,
-				8923A4932052189500E0658A /* Release */,
+				892E785B2223CBA700481BC5 /* Debug */,
+				892E785C2223CBA700481BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8923A4942052189500E0658A /* Build configuration list for PBXNativeTarget "MessageForwarding" */ = {
+		892E785D2223CBA700481BC5 /* Build configuration list for PBXNativeTarget "MessageForward" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8923A4952052189500E0658A /* Debug */,
-				8923A4962052189500E0658A /* Release */,
+				892E785E2223CBA700481BC5 /* Debug */,
+				892E785F2223CBA700481BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8923A4852052189400E0658A /* Project object */;
+	rootObject = 892E783F2223CBA600481BC5 /* Project object */;
 }
