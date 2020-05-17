@@ -10,6 +10,7 @@ Little Category | https://www.jianshu.com/p/16f4157f0bcc
 TaggedPointer | https://www.jianshu.com/p/01153d2b28eb
 ProtoBuf | https://www.jianshu.com/p/915875f17a76
 Swift 中的结构体 | https://www.jianshu.com/p/2c46ef28b328
+Swift 中的类 | https://www.jianshu.com/p/07f7523f2d6d 
 
 ---
 

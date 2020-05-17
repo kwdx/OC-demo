@@ -1,0 +1,5 @@
+
+module SwiftClass [system] [extern_c] {
+    header "./lib/include/SwiftClass.hpp"
+    export *
+}
